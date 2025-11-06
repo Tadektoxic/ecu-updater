@@ -1,0 +1,83 @@
+{
+  "ecu": "EDC16U1",
+  "file_size": 1048576,
+  "maps": [
+    {
+      "name": "Boost Request Map",
+      "address": 262144,
+      "rows": 16,
+      "cols": 16,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.00390625,
+      "offset": 0,
+      "unit": "bar"
+    },
+    {
+      "name": "Turbo Boost Limiter",
+      "address": 294912,
+      "rows": 10,
+      "cols": 10,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.00390625,
+      "offset": 0,
+      "unit": "bar"
+    },
+    {
+      "name": "Torque Request Map",
+      "address": 278528,
+      "rows": 16,
+      "cols": 16,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.390625,
+      "offset": 0,
+      "unit": "Nm"
+    },
+    {
+      "name": "Torque Limiter",
+      "address": 285440,
+      "rows": 20,
+      "cols": 3,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.390625,
+      "offset": 0,
+      "unit": "Nm"
+    },
+    {
+      "name": "Injection Quantity Map",
+      "address": 311296,
+      "rows": 16,
+      "cols": 16,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.015625,
+      "offset": 0,
+      "unit": "mg/stroke"
+    },
+    {
+      "name": "N75 Duty Cycle",
+      "address": 305000,
+      "rows": 13,
+      "cols": 16,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.1,
+      "offset": 0,
+      "unit": "%"
+    },
+    {
+      "name": "SVBL",
+      "address": 310000,
+      "rows": 1,
+      "cols": 1,
+      "data_type": "uint16",
+      "endian": "big",
+      "scale": 0.00390625,
+      "offset": 0,
+      "unit": "bar"
+    }
+  ]
+}
